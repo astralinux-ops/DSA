@@ -3,7 +3,7 @@
 ## Problem Information
 - **Platform:** Leetcode
 - **Difficulty:** Hard
-- **URL:** https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1926548190/
+- **URL:** https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1926597842/
 - **Date:** 2026-02-21
 
 ## Solution
