@@ -4,7 +4,7 @@
 - **Platform:** Codechef
 - **Difficulty:** Basic
 - **URL:** https://www.codechef.com/problems/WATERCONS
-- **Date:** 2026-02-21
+- **Date:** 2026-02-22
 
 ## Solution
 
