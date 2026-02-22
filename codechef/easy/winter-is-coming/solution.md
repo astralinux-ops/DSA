@@ -8,28 +8,27 @@
 
 ## Solution
 
-```cpp
-     int c=0;
-     int arr[n];
-     for(int i=0; i<n; i++){
-         cin>>arr[i];
-     }
-     bool x=false;
-     for(int i=0; i<n; i++){
-          if(arr[i]<a){
-              if(!x){
-                  x=true;
-                  c++;
-              }
-         }
-         else if(arr[i]>b){
-             x=false;
-         }
-     }
-     cout<<c<<endl;
- }
-}
+```python
+# cook your dish here
+t = int(input())
 
+for _ in range(t):
+    n, A, B = map(int, input().split())
+    temps = list(map(int, input().split()))
+    
+    wearing = False  # Chef starts without a jacket
+    count = 0
+    
+    for temp in temps:
+        if temp < A:
+            if not wearing:
+                count += 1
+                wearing = True
+        elif temp > B:
+            if wearing:
+                wearing = False
+    
+    print(count) 
 ```
 
 ---
